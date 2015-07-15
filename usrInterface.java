@@ -15,6 +15,13 @@ public class usrInterface{
 			 System.out.println("Opcion 1 On/Off");
 			 System.out.println("Opcion 2 AM/FM FM/AM");
 			 System.out.println("Opcion 3 para avanzar frequencia Maximo 150.0 minimo 80.0");
+			 System.out.println("Opcion 4 para regresar frequencia Maximo 150.0 minimo 80.0");
+			 System.out.println("Opcion 5 guarda estacion presente en pociocion de memoria 1-10");
+			 System.out.println("Opcion 6 sintonzar estacion en pocicion de memoria 1-10");
+			 System.out.println("Opcion 7 Quit");
+			 
+			 System.out.println("");
+			 
 			 String usr_input = in.nextLine();
 			 
 			 if (usr_input.equals("1")){
@@ -66,7 +73,22 @@ public class usrInterface{
 				double freq = mainRadio.getEmisora();
 				System.out.println("La frequencua " + freq + " en la pocicion " + pos);				
 		       }
-       
+      		        if (usr_input.equals("6") && ESTADO==true){
+		       		System.out.println("Ingrese el numero de posicion de memoria");
+				System.out.println("que desea escuchar");	
+				int pos = in.nextInt();
+				mainRadio.Memoria(pos);
+				double freq = mainRadio.getEmisora();
+				System.out.println("La frequencua " + freq + " de la pocicion " + pos);				
+		       }
+
+
+			if (usr_input.equals("7")){
+				System.out.println("Program Terminated");
+				break;
+			}
+
+			System.out.println("\n\n\n\n\n");
 
 		 }
 	 

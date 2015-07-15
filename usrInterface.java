@@ -2,7 +2,8 @@
 // Jeancarlo Barrios 14652
 // Dereck Olson 13207
 // Cristian Del Carmen 12961
-// userInterface
+// Cristian Chilel 12417
+// Usser Interface
 
 import java.util.Scanner;
 public class usrInterface{

@@ -9,7 +9,7 @@ public class usrInterface{
 
 	 public static void main(String[] args){
 		 // we create an instance of the radio 
-		 RADIO mainRadio = new radio();
+		 Radio mainRadio = new radio();
 		 Scanner in = new Scanner(System.in);
 		 System.out.println("El Radio Esta Apagado");
 		 boolean ESTADO = false;

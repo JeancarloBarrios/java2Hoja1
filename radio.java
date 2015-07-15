@@ -1,6 +1,6 @@
 
 
-public class radio implements RADIO{
+public class radio implements Radio{
 	
 	private boolean state;
 	private int frequencyModulation;

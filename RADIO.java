@@ -1,7 +1,7 @@
 
 
 
-public interface RADIO {
+public interface Radio {
 	
 	public void setESTADO(boolean ESTADO);
 	

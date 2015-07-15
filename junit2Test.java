@@ -8,7 +8,7 @@ public class junit2Test {
 
 	@Test
 	public void test() {
-		RADIO test = new radio();
+		Radio test = new radio();
 		test.setESTADO(true);
 		boolean result = test.getEstado();
 		assertTrue(result==false);

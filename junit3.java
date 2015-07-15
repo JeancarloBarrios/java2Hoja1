@@ -8,7 +8,7 @@ public class junit3 {
 
 	@Test
 	public void test() {
-		RADIO test = new radio();
+		Radio test = new radio();
 		int result = test.getAMFM();
 		
 		assertTrue(result==1 || result == 0);

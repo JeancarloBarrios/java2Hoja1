@@ -19,7 +19,7 @@ public class usrInterface{
 			 System.out.println("Opcion 5 guarda estacion presente en pociocion de memoria 1-10");
 			 System.out.println("Opcion 6 sintonzar estacion en pocicion de memoria 1-10");
 			 System.out.println("Opcion 7 Quit");
-			 
+			 System.out.println("Recordarse que hay que ensender el	radio antes de usar sus funciones");		 
 			 System.out.println("");
 			 
 			 String usr_input = in.nextLine();

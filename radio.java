@@ -10,7 +10,7 @@ public class radio implements Radio{
 	private double freaquencyAm;
 	// Class constructor it sets all the parameters in default 
 	public radio(){
-		this.state = false;
+		this.state = true;
 		this.frequencyModulation = 1;
 		this.memory = new double[]{0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0};
 		this.freaquency = 88.0;
